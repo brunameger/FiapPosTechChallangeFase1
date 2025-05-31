@@ -123,7 +123,7 @@ def _ler_csv_fallback(opcao: str, ano: int, subopcao: Optional[str]) -> Dict[str
         Dict: Estrutura JSON com dados do CSV.
     """
     nome_arquivo = f"{opcao}{subopcao}.csv" if subopcao else f"{opcao}.csv"
-    caminho_arquivo = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fallback_arquivos", nome_arquivo)
+    caminho_arquivo = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "fallback_arquivos", nome_arquivo)
 
     if not os.path.exists(caminho_arquivo):
         logger.error(f"Arquivo CSV de fallback não encontrado: {caminho_arquivo}")
