@@ -1,0 +1,12 @@
+[2025-05-29 23:33:24] [INFO] Tentando acessar a página da Embrapa: {'opcao': 'opt_02', 'ano': 2023}
+[2025-05-29 23:33:24] [WARNING] Erro de requisição à página da Embrapa: 404 Client Error: Not Found for url: http://vitibrasil.cnpuv.embrapa.br/index.phpa?opcao=opt_02&ano=2023. Utilizando fallback CSV.
+[2025-05-29 23:33:24] [ERROR] Arquivo CSV de fallback não encontrado: C:\Matheus\Tech_Challenge\app\Fallback_Arquivos\opt_02.csv
+[2025-05-29 23:44:19] [INFO] Tentando acessar a página da Embrapa: {'opcao': 'opt_02', 'ano': 2023}
+[2025-05-29 23:44:19] [WARNING] Erro de requisição à página da Embrapa: 404 Client Error: Not Found for url: http://vitibrasil.cnpuv.embrapa.br/index.phpa?opcao=opt_02&ano=2023. Utilizando fallback CSV.
+[2025-05-29 23:44:19] [ERROR] Arquivo CSV de fallback não encontrado: C:\Matheus\Tech_Challenge\app\Fallback_Arquivos\opt_02.csv
+[2025-05-29 23:45:03] [INFO] Tentando acessar a página da Embrapa: {'opcao': 'opt_02', 'ano': 2023}
+[2025-05-29 23:45:03] [WARNING] Erro de requisição à página da Embrapa: 404 Client Error: Not Found for url: http://vitibrasil.cnpuv.embrapa.br/index.phpa?opcao=opt_02&ano=2023. Utilizando fallback CSV.
+[2025-05-29 23:45:03] [ERROR] Arquivo CSV de fallback não encontrado: C:\Matheus\Tech_Challenge\app\fallback_arquivos\opt_02.csv
+[2025-05-29 23:45:11] [INFO] Tentando acessar a página da Embrapa: {'opcao': 'opt_02', 'ano': 2023}
+[2025-05-29 23:45:11] [WARNING] Erro de requisição à página da Embrapa: 404 Client Error: Not Found for url: http://vitibrasil.cnpuv.embrapa.br/index.phpa?opcao=opt_02&ano=2023. Utilizando fallback CSV.
+[2025-05-29 23:45:11] [ERROR] Arquivo CSV de fallback não encontrado: C:\Matheus\Tech_Challenge\app\fallback_arquivos\opt_02.csv
