@@ -8,3 +8,4 @@ bcrypt
 pandas
 python-multipart
 passlib[bcrypt]
+pytest
