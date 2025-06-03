@@ -6,6 +6,11 @@
       "use": "@vercel/python"
     }
   ],
+    "functions": {
+    "app/main.py": {
+      "runtime": "python3.11"
+    }
+  },
   "routes": [
     {
       "src": "/(.*)",
