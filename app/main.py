@@ -34,7 +34,7 @@ def login(forms: OAuth2PasswordRequestForm = Depends()):
     )
     return {"access_token": token, "token_type": "bearer"}
 
-@app.get("/dados")
+@app.get("/dados") 
 def dados(
     opcao: str = Query(..., description="Ex: opt_02 (produção), opt_06 (exportação), etc."),
     ano: int = Query(..., ge=1970, le=2023, description="Ano entre 1970 e 2023"),
