@@ -20,7 +20,7 @@ def coletar_tabela_embrapa(opcao: str, ano: int, subopcao: Optional[str] = None)
     Returns:
         Dict: Dados estruturados.
     """
-    BASE_URL = "http://vitibrasil.cnpuv.embrapa.br/index.phpa"
+    BASE_URL = "http://vitibrasil.cnpuv.embrapa.br/index.php"
     params = {"opcao": opcao, "ano": ano}
     if subopcao:
         params["subopcao"] = subopcao
