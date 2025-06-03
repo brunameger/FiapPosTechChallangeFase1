@@ -1,4 +1,4 @@
-from app import auth
+from .. import auth
 from datetime import timedelta
 import jwt
 
