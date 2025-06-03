@@ -5,8 +5,10 @@ from datetime import timedelta
 from typing import Optional
 from app.auth import autenticar_usuario, criar_token_acesso, obter_usuario, ACCESS_TOKEN_EXPIRE_MINUTES
 from app.scrapper import coletar_tabela_embrapa
+from mangum import Mangum
 
 app = FastAPI(title="API Vitivinicultura - Embrapa", version="2.0")
+handler = Mangum(app)
 
 @app.get("/")
 def home():
