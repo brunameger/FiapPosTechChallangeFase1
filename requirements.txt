@@ -9,4 +9,5 @@ pandas
 python-multipart
 passlib[bcrypt]
 pytest
-mangum
+httpx
+pytest-asyncio

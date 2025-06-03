@@ -27,4 +27,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Rodar testes com pytest
-        run: pytest
+        run: PYTHONPATH=$(pwd) pytest -v
